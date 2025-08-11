@@ -22,7 +22,6 @@ func _get_export_options_overrides(platform) -> Dictionary:
 	}
 
 func _export_begin(features: PackedStringArray, is_debug: bool, path: String, flags: int) -> void:
-	emit_signal("export_warning", "Export started")
 	if features.has("web"):
 
 		# Get the export directory path
