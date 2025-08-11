@@ -81,7 +81,7 @@ var midi_out : MidiOutWeb= MidiOutWeb.new() # MIDI Out
 
 ## Notes
 
-- Checking whether the project is running on "Web" must be done manually.
+- Checking whether the project is running on "Web" must be done manually. This can simply be done via `if OS.get_name() == "Web":`
 
 ## Browser Compatibility
 
@@ -92,8 +92,6 @@ This plugin works with browsers that support the Web MIDI API:
 
 Check support status here: [https://caniuse.com/midi](https://caniuse.com/midi)
 
-*Note: Firefox requires manual enabling of MIDI support in about:config*
-
 ## Development
 
 **Author**: [MIDILLI Tech](https://midilli.tech)
@@ -102,7 +100,7 @@ Check support status here: [https://caniuse.com/midi](https://caniuse.com/midi)
 
 ## Known Issues
 
-* ignore_types(sysex: bool, time: bool, sense: bool) -> not supported. All messages are enabled.
+* ``ignore_types(sysex: bool, time: bool, sense: bool)`` -> not supported. All messages are enabled.
 
 
 ## Contributing
