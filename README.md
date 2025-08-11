@@ -45,6 +45,9 @@ The plugin uses an `EditorExportPlugin` that:
 4. **Connect a MIDI Device**: Plug in your MIDI device and open the exported project in a supported browser.
 5. **View Incoming Messages**: All incoming MIDI messages will be shown in the browser's Inspector/Console (open with Ctrl+F11).
 
+<img width="1512" height="412" alt="image" src="https://github.com/user-attachments/assets/e4c67aeb-ac72-4e92-b03a-0974ba81b9cb" />
+Screenshot of example application.
+
 ## Usage
 
 ### Init MIDI on Godot:
