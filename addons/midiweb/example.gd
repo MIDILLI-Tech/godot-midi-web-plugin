@@ -14,8 +14,8 @@
 extends Control
 
 func _ready():
-	# Init MIDI Web
-	if OS.get_name() == "Web":
+	if OS.get_name() == "Web": # Check if project is running on Web.
+		# Init MIDI Web
 		JavaScriptBridge.eval("MIDIEngine.init().then(() => { console.log('MIDI Ready!'); });")
 
 		# Wait for devices to be ready
